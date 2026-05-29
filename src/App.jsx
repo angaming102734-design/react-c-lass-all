@@ -1,25 +1,20 @@
-import'./index.css'
+import './App.css'
 
-// export const  App = () => {
-//    return(
-//     <h1>Hello Aslam walikum</h1>
-//    )
-// };
-
-
-
-const App = () => {
-  
-  const element = <h1>Aslam walikum</h1>
-  
-  return (
+function App() {
+  return(
     <>
-    
-    <div> 
-      {element}
-    </div>
-     </>
-  );
-};
+      <h1 className='Top-Heading'>
+        Aslam walikum
+      </h1>
+
+      <input 
+        type="email"
+        placeholder='Email'
+      />
+      <input type="password"
+       placeholder='Password' />
+    </>
+  )
+}
 
 export default App;
