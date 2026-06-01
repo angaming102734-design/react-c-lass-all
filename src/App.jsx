@@ -1,20 +1,12 @@
-import './App.css'
+import Navigator from "./Navigator";
 
-function App() {
+
+const App = () => {
   return(
     <>
-      <h1 className='Top-Heading'>
-        Aslam walikum
-      </h1>
-
-      <input 
-        type="email"
-        placeholder='Email'
-      />
-      <input type="password"
-       placeholder='Password' />
+  <Navigator />
     </>
   )
-}
+};
 
 export default App;
